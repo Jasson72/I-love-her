@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    height: 100vh;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    width: 100vw;
+}
+
+.container > div {
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 20vh;
+}
+
+.nama {
+    font-size: 4.5rem;
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+
+.deskripsi-nama {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.step-dua {
+    font-size: 3.5rem;
+    font-weight: 400;
+}
+
+.step-tiga {
+    font-size: 3.5rem;
+    font-weight: 400;
+}
+
+.step-empat {
+    font-size: 3.5rem;
+    font-weight: 400;
+}
+
+.textbox {
+    border: 3px solid #aaa;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 1rem;
+    position: relative;
+    width: 600px;
+}
+
+.textbox-chat {
+    margin: 0;
+    text-align: justify;
+}
+
+.textbox-chat span {
+    visibility: hidden;
+}
+
+.fake-button {
+    background-color: rgb(21, 161, 237);
+    border-radius: 7px;
+    bottom: -50px;
+    color: #fff;
+    padding: .5rem 1rem;
+    position: absolute;
+    right: 5px;
+}
+
+.bagian-dua p{
+    font-size: 2rem;
+    left: 0;
+    position: absolute;
+    right: 0;
+}
+
+.teks-tiga strong{
+    border-radius: 3px;
+    display: inline-block;
+    padding: 3px 5px;
+}
+
+.teks-lima {
+    font-size: 3rem;
+}
+
+.teks-lima span, .teks-enam span{
+    display: inline-block;
+}
+
+.teks-enam span{
+    font-size: 10rem;
+}
+
+.bagian-tiga {
+    position: relative;
+    bottom: -100px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.profile-picture {
+    display: inline-block;
+    position: relative;
+    top: -170px;
+}
+
+.selamat {
+    position: relative;
+    top: -160px;
+    font-weight: 400;
+    font-size: 2rem;
+    margin: 10px 0 0;
+}
+
+.selamat-deskripsi {
+    position: relative;
+    top: -140px;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+@media (max-width: 500px) {
+    .nama {
+        font-size: 3.5rem;
+    }
+    .deskripsi-nama {
+        font-size: 1.2rem;
+    }
+    .step-dua {
+        font-size: 1.5rem;
+    }
+    .step-tiga {
+        font-size: 1.5rem;
+    }
+    .step-empat {
+        font-size: 1.5rem;
+    }
+    .textbox {
+        width: 380px;
+    }
+    .bagian-dua {
+        font-size: 1.5rem;
+    }
+    .teks-lima {
+        font-size: 1.5rem;
+    }
+    .teks-enam {
+        font-size: 8rem;
+        letter-spacing: -1rem;
+    }
+    .bagian-tiga {
+        position: relative;
+        bottom: -220px;
+    }
+    .profile-picture {
+        width: 200px;
+        height: 200px;
+    }
+    .selamat {
+        font-size: 1.7rem;
+        padding: 10px;
+    }
+    .selamat-deskripsi {
+        position: relative;
+        top: -183px;
+        font-size: 1.3rem;
+        padding: 10px;
+        margin: 10px;
+    }
+}
+
+.bagian-empat {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+}
+
+.baloons img {
+    display: inline-block;
+    position: absolute;
+}
+  
+.baloons img:nth-child(even) {
+    left: -10%;
+}
+  
+.baloons img:nth-child(odd) {
+    right: -10%;
+}
+  
+.baloons img:nth-child(3n + 0) {
+    left: 30%;
+}
+  
+.seven, .eight {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+}
+  
+.eight svg {
+    left: 0;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+    width: 25px;
+    z-index: -1;
+  }
+  
+.eight svg:nth-child(1) {
+    fill: #bd6ecf;
+    left: 5vw;
+    top: 7vh;
+}
+  
+.eight svg:nth-child(2) {
+    fill: #7dd175;
+    left: 35vw;
+    top: 23vh;
+}
+  
+.eight svg:nth-child(3) {
+    fill: #349d8b;
+    left: 23vw;
+    top: 33vh;
+}
+  
+.eight svg:nth-child(4) {
+    fill: #347a9d;
+    left: 57vw;
+    top: 43vh;
+}
+  
+.eight svg:nth-child(5) {
+    fill: #c66053;
+    left: 7vw;
+    top: 68vh;
+}
+  
+.eight svg:nth-child(6) {
+    fill: #bfaa40;
+    left: 77vw;
+    top: 42vh;
+}
+  
+.eight svg:nth-child(7) {
+    fill: #e3bae8;
+    left: 83vw;
+    top: 68vh;
+}
+  
+.eight svg:nth-child(8) {
+    fill: #8762cb;
+    left: 37vw;
+    top: 86vh;
+}
+  
+.eight svg:nth-child(9) {
+    fill: #9a90da;
+    left: 87vw;
+    top: 94vh;
+}
+
+.bagian-enam p {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    font-weight: 400;
+}  
+
+@media (max-width: 500px) {
+    .bagian-enam p {
+        font-size: 1.8rem;
+    }
+}
+
+.replay {
+    text-decoration: none;
+    color: black;
+}
