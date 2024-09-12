@@ -184,6 +184,12 @@
     }
 }
 
+@media (max-width: 400px) {
+    .textbox {
+        width: 360px;
+    }
+}
+
 .bagian-empat {
     height: 100vh;
     width: 100vw;
